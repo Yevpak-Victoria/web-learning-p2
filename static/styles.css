@@ -1,0 +1,210 @@
+/* styles.css */
+html{
+    font-family: "Reem Kufi Fun", sans-serif;
+    font-optical-sizing: auto;
+    color: #836FFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #211951;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* ensure the header stays on top of other elements */
+}
+
+#header-name{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.small-text {
+    font-size: 50px;
+    margin-top: -10px;
+    padding-top: 35px;
+}
+
+.big-text {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+nav{
+    margin-right: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 110px 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #211951;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label, .midum_text{
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+form button {
+    background-color: #15F5BA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#about{
+    background-color: #F0F3FF;
+    margin-top: 60px;
+}
+
+#about-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#photo_about{
+    display: flex;
+    align-items: center;
+}
+
+#my-photo{
+    width: 400px;
+    margin-top: -50px;
+}
+
+#info-about{
+    font-size: 20px;
+    width: 1450px;
+    margin-left: 100px;
+    margin-top: -20px;
+    color: #6d59ed;
+}
+
+#portfolio, #contact{
+    background-color: #836FFF ;
+    color: #F0F3FF;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #15F5BA;
+}
+
+#portfolio-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    width: 700px;
+}
+
+.up-midum_text{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.project-img:hover{
+    border: #15F5BA 3px double;
+    width: 710px;
+    margin-left: -10px;
+}
+
+.img-progect-div{
+    height: 360px;
+}
+
+.article-img{
+    width: 250px;
+    height: 350px;
+}
+
+.article-img:hover{
+    border: #15F5BA 3px double;
+    width: 255px;
+    margin-left: -10px;
+}
+
+.article-p{
+    width: 250px;
+}
+
+#contact{
+    height: 500px;
+}

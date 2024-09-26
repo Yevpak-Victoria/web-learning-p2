@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="static/icon.jpg">
+</head>
+<body>
+    <header>
+        <b><p id="header-name">My Portfolio</p></b>
+        <nav>
+            <ul>
+                <li><a href="#about" class="links">About Me</a></li>
+                <li><a href="#portfolio" class="links">Portfolio</a></li>
+                <li><a href="#articles" class="links">Recommended Articles</a></li>
+                <li><a href="#contact" class="links">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div id="about-div">
+            <div class="info_about">
+                <h3 class="small-text">Hello, I'm Victoria Yevpak</h3>
+                <h1 class="big-text">Landing Page <br> Developer</h1>
+            </div>
+            <div id="photo_about">
+                <img src="static/my_photo.png" alt="picture" id="my-photo">
+            </div>
+        </div>
+        <p id="info-about">As a passionate landing page developer, I thrive on creativity and innovation. My approach combines cutting-edge design with intuitive user experiences, ensuring each project not only stands out visually but also functions seamlessly. With a keen eye for detail and a commitment to excellence, I transform ideas into digital realities that captivate and engage. Let's create something extraordinary together.
+        </p>
+    </section>
+    <section id="portfolio">
+        <h2 class="beruz-text">Portfolio</h2>
+        <div id="portfolio-div">
+            <div class="project">
+                <a href="https://evrotour.com.ua/bolgaria3/ua?utm_source=facebook&utm_medium=all_west_sea_rem#popup:infoblock" class="links"><h3 class="up-midum_text">Travel agency website</h3></a>
+                <div class="img-progect-div"><a href="https://evrotour.com.ua/bolgaria3/ua?utm_source=facebook&utm_medium=all_west_sea_rem#popup:infoblock"><img src="static/project1.jpg" alt="Project 1" class="project-img"></a></div>
+                
+                <p>A multi-page site that includes a full menu, detailed information, feedback and contacts, updates are possible without the involvement of the developer</p>
+            </div>
+            <div class="project">
+                <a href="https://benzokosa.top/?utm_source=z1-5-1-2" class="links"><h3 class="up-midum_text">Household appliances website</h3></a>
+                <div class="img-progect-div"><a href="https://benzokosa.top/?utm_source=z1-5-1-2"><img src="static/project2.jpg" alt="Project 2" class="project-img"></a></div>
+                <p>A one-page site selling one product with detailed information and an order window</p>
+            </div>
+        </div>
+        
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="articles">
+        <h2>Recommended Articles</h2>
+        <div id="portfolio-div">
+            <div class="article">
+                <a href="https://www.adsmurai.com/en/articles/optimize-landing-pages-for-digital-marketing-strategies" class="links"><h3 class="midum_text">landing pages <br> for digital marketing strategies</h3></a>
+                <div class="img-progect-div"><a href="https://www.adsmurai.com/en/articles/optimize-landing-pages-for-digital-marketing-strategies"><img src="static/article1.jpg" alt="Project 1" class="article-img"></a></div>
+                <p class="article-p"> Look for articles that discuss how landing pages fit into broader digital marketing strategies, including email campaigns, social media, and PPC advertising.</p>
+            </div>
+            <div class="article">
+                <a href="https://www.wisitech.com/top-5-trends-of-landing-page-design-in-2024/" class="links"><h3 class="midum_text">Top 5 Trends <br> of Landing Page Design In 2024</h3></a>
+                <div class="img-progect-div"><a href="https://www.wisitech.com/top-5-trends-of-landing-page-design-in-2024/"><img src="static/article2.jpg" alt="Project 1" class="article-img"></a></div>
+                <p class="article-p"> Staying updated with the latest trends in landing page design can keep your content fresh and engaging.</p>
+            </div>
+            <div class="article">
+                <a href="https://blog.roastmylandingpage.com/case-study-landing-page-examples/" class="links"><h3 class="midum_text">landing pages <br> that inspire trust</h3></a>
+                <div class="img-progect-div"><a href="https://blog.roastmylandingpage.com/case-study-landing-page-examples/"><img src="static/article3.jpg" alt="Project 1" class="article-img"></a></div>
+                <p class="article-p"> Reading through case studies or analyses of successful landing pages can provide practical insights and inspiration for your own designs.</p>
+            </div>
+            <div class="article">
+                <a href="https://instapage.com/blog/seo-friendly-landing-pages/" class="links"><h3 class="midum_text">SEO Friendly <br> Landing Pages</h3></a>
+                <div class="img-progect-div"><a href="https://instapage.com/blog/seo-friendly-landing-pages/"><img src="static/article4.jpg" alt="Project 1" class="article-img"></a></div>
+                <p class="article-p"> Look for articles that discuss how landing pages fit into broader digital marketing strategies, including email campaigns, social media, and PPC advertising.</p>
+            </div>
+        </div>
+        
+        <!-- Add more articles as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="midum_text">Contact me:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 All rights reserved by Victoria Yevpak.</p>
+    </footer>
+    <script src="static/script.js"></script>
+</body>
+</html>
