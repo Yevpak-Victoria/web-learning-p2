@@ -1,0 +1,48 @@
+/* #B7E0FF
+#FFF5CD
+#FFCFB3
+#E78F81 */
+
+html{
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #eff8ff;
+}
+
+h1{
+    margin-left: 40%;
+}
+
+th{
+    background-color: #B7E0FF;
+}
+
+td{
+    background-color: white;
+}
+
+.lk{
+    background-color: #FFF5CD;
+}
+
+.pk{
+    background-color: #A1EEBD;
+}
+
+.lb{
+    background-color: #FFCFB3;
+}
+
+.recently_added{
+    background-color: #E78F81;
+}
+
+table{
+    background-color: rgb(200, 200, 200);
+    width: 90%;
+    margin-left: 5%;
+}
+
